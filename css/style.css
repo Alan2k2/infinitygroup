@@ -22,7 +22,7 @@
 
 @media (max-width: 768px) {
     .navbar-logo {
-        max-height: 30px; /* Adjust for smaller screens */
+        max-height: 20px; /* Adjust for smaller screens */
     }
 }
 
