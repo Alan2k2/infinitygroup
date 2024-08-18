@@ -90,3 +90,16 @@
     transform: translateX(-50%);
     z-index: 15; /* Ensures text is above both images */
 }
+/* .ftr{
+    
+    background: linear-gradient(180deg, rgba(103,136,131,1) 0%, rgba(0,0,0,1) 100%);
+} */
+.footer {
+    background: linear-gradient(180deg, rgba(103,136,131,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 20px 0;
+    /* width: 100%; */
+}
+.footer img {
+    max-width: 100%;
+    height: auto;
+}
