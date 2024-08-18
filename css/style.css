@@ -45,3 +45,32 @@
 .card-img-top:hover .overlay {
     opacity: 1;
 }
+.carousel-image-container {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Adjust size as needed */
+    max-height: 80%; /* Adjust size as needed */
+    z-index: 10;
+    pointer-events: none; /* Allows clicks to pass through */
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 15; /* Ensures text is above both images */
+}
