@@ -10,6 +10,22 @@
     background: rgb(103, 136, 131);
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    max-height: 40px; /* Adjust based on your design */
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .navbar-logo {
+        max-height: 30px; /* Adjust for smaller screens */
+    }
+}
+
 .carousel-caption {
     position: absolute;
     top: 50%;
